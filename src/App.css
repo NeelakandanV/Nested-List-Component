@@ -1,0 +1,88 @@
+.MainParent{
+    height: 96vh;
+    width: 96vw;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Title{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+
+.NavContent{
+    margin: 7px;
+    padding: 4px; 
+}
+
+span{
+    position: absolute;
+    top: 80px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.showBrand,.showModel,.showVariant,.showColor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 220px;
+    width: 150px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(134, 145, 145);
+}
+
+.showBrand{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.showModel{
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+.showVariant{
+    position: absolute;
+    top: 180px;
+    left: 340px;  
+}
+
+.showColor{
+    position: absolute;
+    top: 210px;
+    left: 500px;
+}
+
+p{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+p:visited{
+    color: blue;
+}
